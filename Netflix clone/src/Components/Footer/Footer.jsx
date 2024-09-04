@@ -16,31 +16,31 @@ function Footer() {
         <div className="footer-data ">
           <div>
             <ul>
-              <li>audio description </li>
-              <li>investor relation</li>
-              <li>legal notice</li>
-              <li>advert choice</li>
+              <li> Audio description </li>
+              <li>Investor relation</li>
+              <li>Legal notice</li>
+              <li>Advert choice</li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>help center</li>
-              <li>jobs</li>
-              <li>cookie preferance</li>
+              <li>Help center</li>
+              <li>Jobs</li>
+              <li>Cookie preferance</li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>gift card</li>
-              <li>terms of use</li>
-              <li>corporate information</li>
+              <li>Gift card</li>
+              <li>Terms of use</li>
+              <li>Corporate information</li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>media center</li>
-              <li>privacy</li>
-              <li>contact</li>
+              <li>Media center</li>
+              <li>Privacy</li>
+              <li>Contact</li>
             </ul>
           </div>
           <div className="service">

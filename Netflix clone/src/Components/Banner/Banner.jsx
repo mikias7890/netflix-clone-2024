@@ -57,7 +57,7 @@ const Banner = () => {
         </div>
         <h1 className="description">{truncate(movie?.overview, 150)}</h1>
       </div>
-      {/* <div className="bottom" /> */}
+      <div className="fade_bottom" />
     </div>
   );
 };
