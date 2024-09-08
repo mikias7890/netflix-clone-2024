@@ -1,6 +1,7 @@
 const API_KEY = import.meta.env.VITE_API_KEY;
 const request = {
   fetchTrending: `/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1`,
+  fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_network=213`,
   fetchNetflixPopular: `/tv/popular?api_key=${API_KEY}&language=en-US&page=1`,
   fetchactionmovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
   fetchComedymovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,

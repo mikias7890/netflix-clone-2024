@@ -12,6 +12,7 @@ function Rowlists() {
       />
       <Row title="Trending" fetchurl={request.fetchTrending} />
       <Row title="Actionmovies" fetchurl={request.fetchactionmovies} />
+      <Row title="NetflixOriginals" fetchurl={request.fetchNetflixOriginals} />
       <Row title="Comedymovies" fetchurl={request.fetchComedymovies} />
       <Row title="HorrorMovies" fetchurl={request.fetchHorrorMovies} />
       <Row title="RomanceMovies" fetchurl={request.fetchRomanceMovies} />

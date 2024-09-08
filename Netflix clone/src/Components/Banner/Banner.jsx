@@ -9,7 +9,7 @@ const Banner = () => {
   useEffect(() => {
     (async () => {
       try {
-        const response = await axios.get(request.fetchNetflixPopular);
+        const response = await axios.get(request.fetchNetflixOriginals);
         console.log(response);
         setMovie(
           response.data.results[

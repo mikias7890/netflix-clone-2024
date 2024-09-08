@@ -11,14 +11,13 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 20px;
-  position: relative;
 }
 .row_posters::-webkit-scrollbar {
   display: none;
 }
 
 .row_poster:hover {
-  transform: scale(1.08);
+  transform: scale(2.08);
 }
 
 .row_posterlarge {
@@ -26,7 +25,7 @@
 }
 
 .row_posterlarge:hover {
-  transform: scale(1.09);
+  transform: scale(1.1);
 }
 
 .row {

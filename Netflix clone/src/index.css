@@ -8,3 +8,9 @@
 body {
   background-color: black;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "weight";
+  font-style: normal;
+}
