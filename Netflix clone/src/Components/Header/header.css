@@ -1,25 +1,23 @@
 .header {
-  position: sticky;
-  top: 0;
   display: flex;
   justify-content: center;
-  background-color: black;
-  /* background-color: transparent; */
-  height: 10vh;
+  background-color: transparent;
+  /* height: 10vh; */
   color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
-  z-index: 1;
-  /* background-color: red; */
+  top: 0;
 }
-.nav {
-  background-color: black;
-}
+
 .header-container {
-  width: 90%;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 60px;
+  padding-right: 30px;
 }
 
 .left ul {
@@ -37,3 +35,7 @@
   list-style: none;
   cursor: pointer;
 }
+.sticky {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7098039216);
+} /*# sourceMappingURL=style.css.map */

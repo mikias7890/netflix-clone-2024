@@ -42,9 +42,16 @@
   width: 10%;
   margin: 10px 0;
   cursor: pointer;
+  color: gray;
 }
 
 .copy {
   font-size: 12px;
   margin-bottom: 10px;
+}
+.second {
+  justify-content: center;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 270px;
 }
