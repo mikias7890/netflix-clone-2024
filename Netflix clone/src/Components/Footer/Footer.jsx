@@ -48,10 +48,10 @@ function Footer() {
         </div>
       </div>
       <div className="second">
-        <div className="copy">&copy;2024 Netflix</div>
         <div className="service">
           <p>service code</p>
         </div>
+        <div className="copy">&copy;2024 Netflix</div>
       </div>
     </>
   );
